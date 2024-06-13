@@ -34,9 +34,9 @@ setup(
     python_requires='>=3.10',
     packages=find_packages(),
     install_requires=[
-        'numpy>=1.20',
-        'jax>=0.4.6',
-        'tensorflow>=2.11.0',
+        'numpy==1.20',
+        'jax==0.4.6',
+        'tensorflow==2.11.0',
         'chex>=0.1.6',
         'dm_env>=1.6',
         'flax>=0.6.7',
@@ -48,6 +48,6 @@ setup(
         'tqdm>=4.65.0',
         'absl-py>=1.4.0',
     ],
-    url='https://github.com/waymo-research/waymax',
+    url='https://github.com/CesarLiu/waymax',
     license='Apache-2.0',
 )
